@@ -1,9 +1,7 @@
 @echo off
 
-cd PasswordGenerator 
-pip install werkzeug 
-pip install progress 
-echo "0123456789"
+pip install -r requirements.txt
+cd PasswordGenerator
 cd Data
 py confirm.py
 cls 

@@ -1,19 +1,14 @@
 @echo off
 color A
 
-cd PasswordGenerator 
-pip uninstall werkzeug 
-pip uninstall progress 
-echo "0123456789"
+pip uninstall -y -r requirements.txt
+cd PasswordGenerator
 cd Data
 py unconfirm.py
 cls
 set ok= Se eliminaran los archivos 'pass.txt' y 'crash.txt' 
 
-unconfirm2.py
-goto siguiente
-
-cls 
+cls
 echo Finalizado...
 echo .
 echo .

@@ -2,8 +2,13 @@ import os
 from datetime import date
 from datetime import datetime
 
-os.remove('0.txt')
-os.remove('ins.txt')
-os.remove('ins.bat')
+lista_de_archivos = ['0.txt', 'ins.txt', 'ins.bat', '../pass.txt', '../crash.txt']
+
+for archivo in lista_de_archivos:
+    if os.path.exists(archivo): 
+        os.remove(archivo)    
+    else:
+        print(f"AVISO: El archivo {archivo} no se encuentra")
+
 
 exit()
