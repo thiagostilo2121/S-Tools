@@ -31,3 +31,4 @@ Generador de QR con Python y ademas con el archivo un-code.py puede ver que tien
 # Creditos
 
 [thiagostilo2121](https://github.com/thiagostilo2121)
+[Consulta las versiones disponibles](https://github.com/thiagostilo2121/S-Tools/SECURITY.md)
