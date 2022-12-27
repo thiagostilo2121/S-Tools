@@ -17,6 +17,13 @@ Supported Systems
 | Linux  | :x: Comming Soon            |
 | MacOS  | :x:                |
 
+S-Tools supportted Versions
+
+| S-Tools | Supported | 
+| ------- | ------------------ |
+| 1.3 | :white_check_mark: |
+| 1.3 > | :white_check_mark: |
+| < 1.3 | :x: |
 
 ## Reporting a Vulnerability
 
